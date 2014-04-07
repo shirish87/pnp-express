@@ -1,0 +1,19 @@
+{
+  "name": "pnp-express",
+  "version": "1.0.0",
+  "description": "Express app with pluggable components",
+  "main": "lib/pnp-express.js",
+  "scripts": {
+    "test": "DEBUG=pnp-express,plugger,hooker mocha --reporter spec"
+  },
+  "author": "Shirish Kamath",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^3.5.1",
+    "plugger": "^1.0.0",
+    "debug": "^0.8.0"
+  },
+  "devDependencies": {
+    "convict": "^0.4.2"
+  }
+}
