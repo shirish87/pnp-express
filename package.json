@@ -9,9 +9,10 @@
   "author": "Shirish Kamath",
   "license": "MIT",
   "dependencies": {
+    "connect-redis": "^1.4.7",
+    "debug": "^0.8.0",
     "express": "^3.5.1",
-    "plugger": "^0.1.0",
-    "debug": "^0.8.0"
+    "plugger": "^0.1.0"
   },
   "devDependencies": {
     "convict": "^0.4.2"
